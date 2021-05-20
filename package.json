@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Gytis Vinclovas",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "./remove_core_js.sh"
+  },
   "dependencies": {
     "@storybook/addon-knobs": "5.3.0-alpha.39",
     "@storybook/addon-links": "5.3.0-alpha.39",
